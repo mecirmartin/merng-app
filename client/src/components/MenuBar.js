@@ -8,7 +8,6 @@ const MenuBar = () => {
   const [activeItem, setActiveItem] = useState(path);
 
   const handleItemClick = (e, { name }) => setActiveItem(name);
-  console.log(activeItem);
 
   return (
     <Menu pointing secondary size='massive' color='purple'>
