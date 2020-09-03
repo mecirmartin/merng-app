@@ -8,3 +8,8 @@
   width: 50%;
   margin: auto;
 }
+
+.ui.purple.button:focus,
+.ui.purple.buttons .button:focus {
+  background-color: #a333c8;
+}
